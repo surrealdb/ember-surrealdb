@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0.0",
+  "projectName": "ember-surrealdb",
   "packages": [
     {
-      "name": "ember-cli",
-      "version": "5.6.0",
+      "name": "@embroider/addon-blueprint",
+      "version": "2.11.0",
       "blueprints": [
         {
-          "name": "addon",
-          "outputRepo": "https://github.com/ember-cli/ember-addon-output",
-          "codemodsSource": "ember-addon-codemods-manifest@1",
+          "name": "@embroider/addon-blueprint",
           "isBaseBlueprint": true,
           "options": [
-            "--no-welcome"
+            "--ci-provider=github",
+            "--pnpm"
           ]
         }
       ]
