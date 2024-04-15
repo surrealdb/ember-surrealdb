@@ -2,9 +2,9 @@ import Ember from 'ember';
 import { setOwner } from '@ember/application';
 import { inject } from '@ember/service';
 import { tracked } from '@glimmer/tracking';
-import meta from 'src/classes/meta';
-import json from 'src/utils/json';
-import { RECORD } from 'src/model';
+// import meta from '../../classes/meta/index';
+import json from '../../utils/json';
+import { RECORD } from '../../model';
 
 export default class Field {
   // ------------------------------

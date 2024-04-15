@@ -2384,3 +2384,5 @@ diff_match_patch.patch_obj.prototype.toString = function () {
   }
   return text.join('').replace(/%20/g, ' ');
 };
+
+export default diff_match_patch;

@@ -1,6 +1,6 @@
 import Property from './property';
 import Datetime from '../types/datetime';
-import { RECORD } from 'src/model';
+import { RECORD } from '../../model';
 
 export default Property({
   get(key) {

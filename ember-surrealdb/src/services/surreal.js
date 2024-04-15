@@ -1,13 +1,13 @@
 import Service from '@ascua/service/evented';
-import Storage from 'src/classes/storage';
+import Storage from '../classes/storage';
 import config from '@ascua/config';
-import unid from 'src/utils/unid';
+import unid from '../utils/unid';
 import Database from 'surrealdb.js';
 import { tracked } from '@glimmer/tracking';
 import { inject } from '@ember/service';
 import { assert } from '@ember/debug';
 import { cache } from '@ascua/decorators';
-import JWT from 'src/utils/jwt';
+import JWT from '../utils/jwt';
 
 const defaults = {
   id: unid(),

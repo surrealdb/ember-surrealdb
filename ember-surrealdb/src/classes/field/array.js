@@ -6,11 +6,11 @@ import Number from '../types/number';
 import Boolean from '../types/boolean';
 import Datetime from '../types/datetime';
 import Record from '../types/record';
-import Model from 'ember-surrealdb/model';
-import Field from 'ember-surrealdb/field';
+import Model from '../../classes/model/index';
+import Field from './index';
 import { assert } from '@ember/debug';
-import { DestroyedError } from 'ember-surrealdb/errors';
-import { RECORD } from 'src/model';
+import { DestroyedError } from '../../errors/index';
+import { RECORD } from '../../model';
 
 const json = (v) => {
   try {

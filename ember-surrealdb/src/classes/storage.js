@@ -1,4 +1,4 @@
-import test from 'src/utils/test';
+import test from '../utils/test';
 
 const enabled = test();
 

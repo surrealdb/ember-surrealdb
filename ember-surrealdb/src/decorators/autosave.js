@@ -1,6 +1,6 @@
-import Model from 'src/model';
-import { RECORD } from 'src/model';
-import { LOADED } from 'src/model';
+import Model from '../model';
+import { RECORD } from '../model';
+import { LOADED } from '../model';
 import { assert } from '@ember/debug';
 
 export default function (target) {

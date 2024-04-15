@@ -1,4 +1,4 @@
-import DMP from 'dmp';
+import DMP from '../../dmp';
 
 function getByPath(obj, path) {
   var parts = path.split('.');

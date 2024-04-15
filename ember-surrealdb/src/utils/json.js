@@ -1,11 +1,11 @@
-import meta from 'src/classes/meta';
+import { all } from '../classes/meta/index';
 
 export function full(object) {
   let json = {};
 
   json.id = object.id;
 
-  meta.all(object).forEach((p) => {
+  all(object).forEach((p) => {
     switch (true) {
       case typeof object[p.name] === 'object' &&
         object[p.name] !== null &&
@@ -28,7 +28,7 @@ export function some(object) {
 
   json.id = object.id;
 
-  meta.all(object).forEach((p) => {
+  all(object).forEach((p) => {
     switch (true) {
       case p.readonly:
         return;
@@ -47,3 +47,5 @@ export function some(object) {
     }),
   );
 }
+
+export default some;

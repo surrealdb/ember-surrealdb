@@ -1,13 +1,13 @@
-import Field from 'src/classes/field';
-import any from 'src/classes/field/any';
-import array from 'src/classes/field/array';
-import boolean from 'src/classes/field/boolean';
-import datetime from 'src/classes/field/datetime';
-import number from 'src/classes/field/number';
-import object from 'src/classes/field/object';
-import record from 'src/classes/field/record';
-import string from 'src/classes/field/string';
-import readonly from 'src/classes/field/readonly';
+import Field from './classes/field/index';
+import any from './classes/field/any';
+import array from './classes/field/array';
+import boolean from './classes/field/boolean';
+import datetime from './classes/field/datetime';
+import number from './classes/field/number';
+import object from './classes/field/object';
+import record from './classes/field/record';
+import string from './classes/field/string';
+import readonly from './classes/field/readonly';
 
 export default Field;
 

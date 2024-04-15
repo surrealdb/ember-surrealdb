@@ -1,7 +1,7 @@
-import meta from 'src/classes/meta';
+import { set } from '../../classes/meta/index';
 
 export default function (target, key, desc) {
-  meta.set(target, key, {
+  set(target, key, {
     readonly: true,
   });
 

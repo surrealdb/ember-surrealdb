@@ -1,9 +1,9 @@
 import Property from './property';
-import Field from 'ember-surrealdb/field';
+import Field from './index';
 import { assert } from '@ember/debug';
 import { setProperties } from '@ember/object';
-import { DestroyedError } from 'ember-surrealdb/errors';
-import { RECORD } from 'src/model';
+import { DestroyedError } from '../../errors/index';
+import { RECORD } from '../../model';
 
 export default function (type) {
   return Property({

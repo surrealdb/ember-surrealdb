@@ -1,11 +1,11 @@
-import meta from 'src/classes/meta';
-import { RECORD } from 'src/model';
+import { set as MetaSet } from '../../classes/meta/index';
+import { RECORD } from '../../model';
 
 const json = (v) => JSON.stringify(v);
 
 export default function (obj) {
   return function (target, key, desc) {
-    meta.set(target, key);
+    MetaSet(target, key);
 
     return {
       configurable: false,

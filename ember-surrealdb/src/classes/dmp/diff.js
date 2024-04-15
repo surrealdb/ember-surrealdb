@@ -1,5 +1,5 @@
 import { typeOf } from '@ember/utils';
-import DMP from 'dmp';
+import DMP from '../../dmp';
 
 const regex =
   /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}(?:\.\d*))(?:Z|(\+|-)([\d|:]*))?$/;
