@@ -1,13 +1,13 @@
 import Service from '@ascua/service/evented';
-import Storage from '../classes/storage';
+import Storage from 'src/classes/storage';
 import config from '@ascua/config';
-import unid from '../utils/unid';
+import unid from 'src/utils/unid';
 import Database from 'surrealdb.js';
 import { tracked } from '@glimmer/tracking';
 import { inject } from '@ember/service';
 import { assert } from '@ember/debug';
 import { cache } from '@ascua/decorators';
-import JWT from '../utils/jwt';
+import JWT from 'src/utils/jwt';
 
 const defaults = {
   id: unid(),
@@ -113,12 +113,13 @@ export default class Surreal extends Service {
     assert(
       'Set the `surreal.ns` property in your environment config as a string',
       this.#config.namespace !== undefined ||
-        this.#config.NAMESPACE !== undefined
+        this.#config.NAMESPACE !== undefined,
     );
 
     assert(
       'Set the `surreal.db` property in your environment config as a string',
-      this.#config.database !== undefined || this.#config.DATABASE !== undefined
+      this.#config.database !== undefined ||
+        this.#config.DATABASE !== undefined,
     );
 
     // Open the websocket for the first

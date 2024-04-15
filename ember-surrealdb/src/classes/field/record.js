@@ -1,7 +1,7 @@
 import Property from './property';
 import Record from '../types/record';
 import Model from 'ember-surrealdb/model';
-import { RECORD } from '../model';
+import { RECORD } from 'src/model';
 
 export default function (type) {
   return Property({

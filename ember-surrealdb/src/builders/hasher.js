@@ -1,4 +1,4 @@
-import md5 from '../utils/md5';
+import md5 from 'src/utils/md5';
 
 export default function (table, options = {}) {
   let bits = [];

@@ -1,4 +1,4 @@
-import meta from '../meta';
+import meta from 'src/classes/meta';
 
 export default function (target, key, desc) {
   meta.set(target, key, {

@@ -1,4 +1,4 @@
-import meta from '../classes/meta';
+import meta from 'src/classes/meta';
 
 export function full(object) {
   let json = {};
@@ -19,7 +19,7 @@ export function full(object) {
   return JSON.parse(
     JSON.stringify(json, (k, v) => {
       return typeof v === 'undefined' ? null : v;
-    })
+    }),
   );
 }
 
@@ -44,6 +44,6 @@ export function some(object) {
   return JSON.parse(
     JSON.stringify(json, (k, v) => {
       return typeof v === 'undefined' ? null : v;
-    })
+    }),
   );
 }

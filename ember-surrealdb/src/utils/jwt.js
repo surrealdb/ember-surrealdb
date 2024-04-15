@@ -1,4 +1,4 @@
-import base64 from '../utils/base';
+import base64 from 'src/utils/base';
 
 export default function (token, options = {}) {
   if (typeof token !== 'string') {

@@ -3,7 +3,7 @@ import Field from 'ember-surrealdb/field';
 import { assert } from '@ember/debug';
 import { setProperties } from '@ember/object';
 import { DestroyedError } from 'ember-surrealdb/errors';
-import { RECORD } from '../model';
+import { RECORD } from 'src/model';
 
 export default function (type) {
   return Property({

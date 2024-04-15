@@ -6,7 +6,7 @@ import { tracked } from '@glimmer/tracking';
 import { defer } from '@ascua/queue';
 import Patch from '../dmp/patch';
 import Diff from '../dmp/diff';
-import json from '../../utils/json';
+import json from 'src/utils/json';
 
 export const RECORD = Symbol('RECORD');
 export const LOADED = Symbol('LOADED');

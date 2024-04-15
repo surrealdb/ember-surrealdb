@@ -10,7 +10,7 @@ import Model from 'ember-surrealdb/model';
 import Field from 'ember-surrealdb/field';
 import { assert } from '@ember/debug';
 import { DestroyedError } from 'ember-surrealdb/errors';
-import { RECORD } from '../model';
+import { RECORD } from 'src/model';
 
 const json = (v) => {
   try {

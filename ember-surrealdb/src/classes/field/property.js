@@ -1,5 +1,5 @@
-import meta from '../meta';
-import { RECORD } from '../model';
+import meta from 'src/classes/meta';
+import { RECORD } from 'src/model';
 
 const json = (v) => JSON.stringify(v);
 

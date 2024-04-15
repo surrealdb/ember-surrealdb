@@ -1,6 +1,6 @@
 import Property from './property';
 import Number from '../types/number';
-import { RECORD } from '../model';
+import { RECORD } from 'src/model';
 
 export default Property({
   get(key) {

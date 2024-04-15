@@ -1,5 +1,5 @@
 import Service from '@ember/service';
-import Cache from '../classes/cache';
+import Cache from 'src/classes/cache';
 import { inject } from '@ember/service';
 import { getOwner } from '@ember/application';
 import { assert } from '@ember/debug';
@@ -7,8 +7,8 @@ import Model from 'ember-surrealdb/model';
 import count from '../builders/count';
 import table from '../builders/table';
 import hasher from '../builders/hasher';
-import Record from '../classes/types/record';
-import { DestroyedError } from '../errors';
+import Record from 'src/classes/types/record';
+import { DestroyedError } from 'src/errors';
 import { TrackedObject } from 'tracked-built-ins';
 
 export default class Store extends Service {

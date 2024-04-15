@@ -77,6 +77,11 @@
   "ember-addon": {
     "version": 2,
     "type": "addon",
-    "main": "addon-main.cjs"
+    "main": "addon-main.cjs",
+    "app-js": {
+      "./services/session.js": "./dist/_app_/services/session.js",
+      "./services/store.js": "./dist/_app_/services/store.js",
+      "./services/surreal.js": "./dist/_app_/services/surreal.js"
+    }
   }
 }
