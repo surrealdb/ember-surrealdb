@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@ascua/config": "^0.3.11",
-    "@ascua/context": "^0.3.11",
+    "@ascua/context": "^0.16.0",
     "@ascua/decorators": "^0.3.11",
     "@ascua/proxy": "^0.3.11",
     "@ascua/queue": "^0.3.11",
