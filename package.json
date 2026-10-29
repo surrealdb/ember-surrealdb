@@ -43,7 +43,7 @@
     "ember-cli-babel": "^8.2.0",
     "ember-cli-htmlbars": "^6.3.0",
     "ember-window-mock": "^0.8.1",
-    "surrealdb.js": "^0.11.0",
+    "surrealdb.js": "^1.0.0",
     "tracked-built-ins": "^3.2.0",
     "ws": "^8.5.0"
   },
